@@ -32,16 +32,16 @@ def main():
                 sys.exit()
             elif event.type == pygame.KEYDOWN: #键被按下
                 if event.key == pygame.K_LEFT:
-                    move_x = -1
+                    #move_x = -1
                     print("left")
                 elif event.key == pygame.K_RIGHT:
-                    move_x = 1
+                    #move_x = 1
                     print("right")
                 elif event.key == pygame.K_UP:
-                    move_y = -1
+                    #move_y = -1
                     print("up")
                 elif event.key == pygame.K_DOWN:
-                    move_y = 1
+                    #move_y = 1
                     print("down")
                 elif event.key == pygame.K_c:
                     print("c")
